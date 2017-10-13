@@ -1,0 +1,408 @@
+(2017-09-21 02:12:17,411) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::__construct
+(2017-09-21 02:12:17,412) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-21 02:12:17,413) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::__construct
+(2017-09-21 02:12:17,413) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-21 02:12:17,413) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::__construct
+(2017-09-21 02:12:17,414) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::buildClassifier
+(2017-09-21 02:12:17,414) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::classifyInstance
+(2017-09-21 02:12:17,414) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::__construct
+(2017-09-21 02:12:17,414) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::buildClassifier
+(2017-09-21 02:12:17,415) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::classifyInstance
+(2017-09-21 02:12:17,415) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::__construct
+(2017-09-21 02:12:17,415) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::buildClassifier
+(2017-09-21 02:12:17,416) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::classifyInstance
+(2017-09-21 02:12:17,416) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::__construct
+(2017-09-21 02:12:17,416) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::buildClassifier
+(2017-09-21 02:12:17,417) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::classifyInstance
+(2017-09-21 02:12:53,058) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::__construct
+(2017-09-21 02:12:53,061) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-21 02:12:53,061) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::__construct
+(2017-09-21 02:12:53,061) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-21 02:12:53,062) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::__construct
+(2017-09-21 02:12:53,062) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::buildClassifier
+(2017-09-21 02:12:53,062) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::classifyInstance
+(2017-09-21 02:12:53,062) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::__construct
+(2017-09-21 02:12:53,063) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::buildClassifier
+(2017-09-21 02:12:53,063) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::classifyInstance
+(2017-09-21 02:12:53,063) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::__construct
+(2017-09-21 02:12:53,063) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::buildClassifier
+(2017-09-21 02:12:53,064) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::classifyInstance
+(2017-09-21 02:12:53,064) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::__construct
+(2017-09-21 02:12:53,064) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::buildClassifier
+(2017-09-21 02:12:53,064) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::classifyInstance
+(2017-09-22 02:08:40,121) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-22 02:08:40,132) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-22 02:09:23,969) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-22 02:09:23,971) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-22 02:09:23,972) ERROR [main] [OperationFileParser.get:154] - IndexOutOfBoundsException bei zugriff auf Index 15des OperationFileParsers
+(2017-09-22 02:09:42,839) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-22 02:09:42,841) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-22 02:09:57,666) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-22 02:09:57,668) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-22 02:10:15,522) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-22 02:10:15,524) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-22 02:11:38,860) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::__construct
+(2017-09-22 02:11:38,863) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-22 02:11:38,863) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::__construct
+(2017-09-22 02:11:38,864) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-22 02:11:38,864) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::__construct
+(2017-09-22 02:11:38,881) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::buildClassifier
+(2017-09-22 02:11:38,881) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::classifyInstance
+(2017-09-22 02:11:38,882) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::__construct
+(2017-09-22 02:11:38,882) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::buildClassifier
+(2017-09-22 02:11:38,883) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::classifyInstance
+(2017-09-22 02:11:38,883) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::__construct
+(2017-09-22 02:11:38,884) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::buildClassifier
+(2017-09-22 02:11:38,884) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::classifyInstance
+(2017-09-22 02:11:38,884) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::__construct
+(2017-09-22 02:11:38,885) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::buildClassifier
+(2017-09-22 02:11:38,885) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::classifyInstance
+(2017-09-22 02:12:39,048) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-22 02:12:39,050) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-22 02:13:34,594) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-22 02:13:34,597) WARN  [main] [OperationFileParser.parseFile:106] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-23 19:51:35,679) ERROR [main] [OperationFileParser.parseOutputMapping:128] - Output mapping not well-formed! : }
+(2017-09-23 19:51:38,634) ERROR [main] [OperationFileParser.parseOutputMapping:128] - Output mapping not well-formed! : }
+(2017-09-23 19:52:25,356) ERROR [main] [OperationFileParser.parseOutputMapping:128] - Output mapping not well-formed! : }
+(2017-09-23 19:52:27,513) ERROR [main] [OperationFileParser.parseOutputMapping:128] - Output mapping not well-formed! : }
+(2017-09-23 19:52:34,845) ERROR [main] [OperationFileParser.parseOutputMapping:128] - Output mapping not well-formed! : }
+(2017-09-23 19:58:22,819) ERROR [main] [OperationFileParser.parseOutputMapping:127] - Output mapping not well-formed! : }
+(2017-09-23 19:58:22,820) ERROR [main] [OperationFileParser.parseFile:98] - InputMismatchException on file line: 10
+(2017-09-23 19:58:22,821) ERROR [main] [OperationFileParser.parseOutputMapping:127] - Output mapping not well-formed! : }
+(2017-09-23 19:58:22,821) ERROR [main] [OperationFileParser.parseFile:98] - InputMismatchException on file line: 12
+(2017-09-23 20:05:59,047) ERROR [main] [OperationFileParser.parseOutputMapping:127] - Output mapping not well-formed! : 					{out=i1}
+(2017-09-23 20:05:59,049) ERROR [main] [OperationFileParser.parseFile:98] - InputMismatchException on file line: 10
+(2017-09-23 20:05:59,050) ERROR [main] [OperationFileParser.parseOutputMapping:127] - Output mapping not well-formed! : 				{out=i1,out2=i2}
+(2017-09-23 20:05:59,050) ERROR [main] [OperationFileParser.parseFile:98] - InputMismatchException on file line: 12
+(2017-09-23 20:38:26,414) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-23 20:38:26,415) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 20:38:26,416) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-23 20:38:26,416) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 21:23:34,057) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-23 21:23:34,060) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 21:23:34,060) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-23 21:23:34,061) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 21:23:47,030) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-23 21:23:47,032) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 21:23:47,032) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-23 21:23:47,033) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 22:56:06,316) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-23 22:56:06,318) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 22:56:06,319) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-23 22:56:06,319) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 22:57:29,423) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-23 22:57:29,424) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 22:57:29,425) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-23 22:57:29,425) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 22:58:10,059) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 					{out=i1}
+(2017-09-23 22:58:10,061) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 22:58:10,062) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 				{out=i1,out2=i2}
+(2017-09-23 22:58:10,062) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 22:58:33,409) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-23 22:58:33,410) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 22:58:33,411) ERROR [main] [OperationFileParser.parseOutputMapping:133] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-23 22:58:33,411) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 22:59:53,529) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 					{out=i1}
+(2017-09-23 22:59:53,531) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 22:59:53,531) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 				{out=i1,out2=i2}
+(2017-09-23 22:59:53,532) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 23:00:42,298) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 					{out=i1}
+(2017-09-23 23:00:42,300) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 23:00:42,301) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 				{out=i1,out2=i2}
+(2017-09-23 23:00:42,301) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 23:02:12,208) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 					{out=i1}
+(2017-09-23 23:02:12,211) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-23 23:02:12,211) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 				{out=i1,out2=i2}
+(2017-09-23 23:02:12,212) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-23 23:09:33,034) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::__construct
+(2017-09-23 23:09:33,037) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-23 23:09:33,037) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::__construct
+(2017-09-23 23:09:33,037) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-23 23:09:33,038) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::__construct
+(2017-09-23 23:09:33,038) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::buildClassifier
+(2017-09-23 23:09:33,039) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::classifyInstance
+(2017-09-23 23:09:33,039) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::__construct
+(2017-09-23 23:09:33,039) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::buildClassifier
+(2017-09-23 23:09:33,040) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::classifyInstance
+(2017-09-23 23:09:33,040) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::__construct
+(2017-09-23 23:09:33,040) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::buildClassifier
+(2017-09-23 23:09:33,041) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::classifyInstance
+(2017-09-23 23:09:33,041) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::__construct
+(2017-09-23 23:09:33,041) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::buildClassifier
+(2017-09-23 23:09:33,041) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::classifyInstance
+(2017-09-23 23:11:25,287) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::__construct
+(2017-09-23 23:11:25,289) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-23 23:11:25,290) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::__construct
+(2017-09-23 23:11:25,290) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-23 23:11:25,291) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::__construct
+(2017-09-23 23:11:25,291) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::buildClassifier
+(2017-09-23 23:11:25,291) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::classifyInstance
+(2017-09-23 23:11:25,291) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::__construct
+(2017-09-23 23:11:25,292) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::buildClassifier
+(2017-09-23 23:11:25,292) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::classifyInstance
+(2017-09-23 23:11:25,292) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::__construct
+(2017-09-23 23:11:25,293) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::buildClassifier
+(2017-09-23 23:11:25,293) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::classifyInstance
+(2017-09-23 23:11:25,293) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::__construct
+(2017-09-23 23:11:25,293) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::buildClassifier
+(2017-09-23 23:11:25,293) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::classifyInstance
+(2017-09-23 23:12:20,235) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::__construct
+(2017-09-23 23:12:20,239) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-23 23:12:20,240) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::__construct
+(2017-09-23 23:12:20,240) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-23 23:12:20,240) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::__construct
+(2017-09-23 23:12:20,241) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::buildClassifier
+(2017-09-23 23:12:20,241) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::classifyInstance
+(2017-09-23 23:12:20,242) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::__construct
+(2017-09-23 23:12:20,242) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::buildClassifier
+(2017-09-23 23:12:20,242) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::classifyInstance
+(2017-09-23 23:12:20,243) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::__construct
+(2017-09-23 23:12:20,243) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::buildClassifier
+(2017-09-23 23:12:20,243) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::classifyInstance
+(2017-09-23 23:12:20,244) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::__construct
+(2017-09-23 23:12:20,244) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::buildClassifier
+(2017-09-23 23:12:20,244) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::classifyInstance
+(2017-09-24 01:21:30,680) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 					{out=i1}
+(2017-09-24 01:21:30,705) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-24 01:21:30,706) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 				{out=i1,out2=i2}
+(2017-09-24 01:21:30,707) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-24 01:23:37,498) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::__construct
+(2017-09-24 01:23:37,500) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 				{out=i1}
+(2017-09-24 01:23:37,500) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-24 01:23:37,501) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::__construct
+(2017-09-24 01:23:37,502) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 			{out=i1,out2=i2}
+(2017-09-24 01:23:37,502) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-24 01:23:37,502) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::__construct
+(2017-09-24 01:23:37,503) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::buildClassifier
+(2017-09-24 01:23:37,503) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::classifyInstance
+(2017-09-24 01:23:37,504) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::__construct
+(2017-09-24 01:23:37,504) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::buildClassifier
+(2017-09-24 01:23:37,504) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::classifyInstance
+(2017-09-24 01:23:37,505) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::__construct
+(2017-09-24 01:23:37,505) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::buildClassifier
+(2017-09-24 01:23:37,505) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::classifyInstance
+(2017-09-24 01:23:37,506) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::__construct
+(2017-09-24 01:23:37,507) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::buildClassifier
+(2017-09-24 01:23:37,508) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::classifyInstance
+(2017-09-24 01:28:37,929) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-24 01:28:37,931) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-24 01:28:39,599) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-24 01:28:39,601) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-24 01:31:19,331) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::__construct
+(2017-09-24 01:31:19,333) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 				{out=i1}
+(2017-09-24 01:31:19,334) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-24 01:31:19,334) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::__construct
+(2017-09-24 01:31:19,335) ERROR [main] [OperationFileParser.parseOutputMapping:125] - Output mapping not well-formed! : 			{out=i1,out2=i2}
+(2017-09-24 01:31:19,335) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-24 01:31:19,335) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::__construct
+(2017-09-24 01:31:19,336) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::buildClassifier
+(2017-09-24 01:31:19,336) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.lazy.IBk::classifyInstance
+(2017-09-24 01:31:19,336) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::__construct
+(2017-09-24 01:31:19,336) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::buildClassifier
+(2017-09-24 01:31:19,337) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.J48::classifyInstance
+(2017-09-24 01:31:19,337) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::__construct
+(2017-09-24 01:31:19,337) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::buildClassifier
+(2017-09-24 01:31:19,337) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomTree::classifyInstance
+(2017-09-24 01:31:19,337) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::__construct
+(2017-09-24 01:31:19,339) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::buildClassifier
+(2017-09-24 01:31:19,339) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	weka.classifiers.trees.RandomForest::classifyInstance
+(2017-09-24 01:37:49,360) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-24 01:37:49,362) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-24 01:40:19,733) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Crop::ApplyInPlace					{out=i1}
+(2017-09-24 01:40:19,735) WARN  [main] [OperationFileParser.parseFile:104] - Not well-formed line in configuration file:
+	Catalano.Imaging.Filters.Resize::applyInPlace				{out=i1,out2=i2}
+(2017-09-24 01:48:35,624) ERROR [main] [OperationFileParser.parseOutputMapping:132] - Output mapping not well-formed! : 					{out=i1}
+(2017-09-24 01:48:35,626) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 10
+(2017-09-24 01:48:35,627) ERROR [main] [OperationFileParser.parseOutputMapping:132] - Output mapping not well-formed! : 				{out=i1,out2=i2}
+(2017-09-24 01:48:35,627) ERROR [main] [OperationFileParser.parseFile:97] - InputMismatchException on file line: 12
+(2017-09-24 01:57:08,576) ERROR [main] [OperationFileParser.parseOutputMapping:147] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-24 01:57:08,578) ERROR [main] [OperationFileParser.parseFile:104] - InputMismatchException on file line: 10
+(2017-09-24 01:57:08,578) ERROR [main] [OperationFileParser.parseOutputMapping:147] - Output mapping not well-formed on a single argument! : 				{out2=i2}
+(2017-09-24 01:57:08,579) ERROR [main] [OperationFileParser.parseFile:104] - InputMismatchException on file line: 12
+(2017-09-24 02:00:32,108) ERROR [main] [OperationFileParser.parseOutputMapping:147] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-24 02:00:32,110) ERROR [main] [OperationFileParser.parseFile:104] - InputMismatchException on file line: 10
+(2017-09-24 02:00:32,111) ERROR [main] [OperationFileParser.parseOutputMapping:147] - Output mapping not well-formed on a single argument! : 				{out2=i2}
+(2017-09-24 02:00:32,111) ERROR [main] [OperationFileParser.parseFile:104] - InputMismatchException on file line: 12
+(2017-09-24 02:02:22,042) ERROR [main] [OperationFileParser.parseOutputMapping:148] - Output mapping not well-formed on a single argument! : 					{out=i1}
+(2017-09-24 02:02:22,044) ERROR [main] [OperationFileParser.parseFile:104] - InputMismatchException on file line: 10
+(2017-09-24 02:02:22,044) ERROR [main] [OperationFileParser.parseOutputMapping:148] - Output mapping not well-formed on a single argument! : 				{out2=i2}
+(2017-09-24 02:02:22,045) ERROR [main] [OperationFileParser.parseFile:104] - InputMismatchException on file line: 12
+(2017-09-24 02:03:09,247) ERROR [main] [OperationFileParser.parseOutputMapping:149] - Output mapping not well-formed on a single argument! : {out=i1
+(2017-09-24 02:03:09,249) ERROR [main] [OperationFileParser.parseFile:105] - InputMismatchException on file line: 12
+(2017-09-24 02:08:01,547) ERROR [main] [OperationFileParser.parseOutputMapping:149] - Output mapping not well-formed on a single argument! : {out=i1
+(2017-09-24 02:08:01,548) ERROR [main] [OperationFileParser.parseFile:105] - InputMismatchException on file line: 12
+(2017-09-24 02:10:55,798) ERROR [main] [OperationFileParser.parseOutputMapping:150] - Output mapping not well-formed on a single argument! : {out=i1
+(2017-09-24 02:10:55,800) ERROR [main] [OperationFileParser.parseFile:106] - InputMismatchException on file line: 12
+(2017-09-25 18:54:00,894) ERROR [main] [OperationFileParser.parseOutputMapping:150] - Output mapping not well-formed on a single argument! : {out=i1
+(2017-09-25 18:54:00,915) ERROR [main] [OperationFileParser.parseFile:106] - InputMismatchException on file line: 12
+(2017-09-26 10:39:22,787) ERROR [main] [OperationFileParser.parseOutputMapping:147] - Output mapping not well-formed! Curly braces missing? : 					{out=i1}
+(2017-09-26 10:39:22,891) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 10
+(2017-09-26 10:39:22,892) ERROR [main] [OperationFileParser.parseOutputMapping:147] - Output mapping not well-formed! Curly braces missing? : 				{out=i1,out2=i2}
+(2017-09-26 10:39:22,893) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 10:40:20,804) ERROR [main] [OperationFileParser.parseOutputMapping:156] - Output mapping not well-formed on a single argument! : {out=i1
+(2017-09-26 10:40:20,807) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 10:41:39,913) ERROR [main] [OperationFileParser.parseOutputMapping:148] - Output mapping not well-formed! Curly braces missing? : 					{out=i1}
+(2017-09-26 10:41:39,915) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 10
+(2017-09-26 10:41:39,915) ERROR [main] [OperationFileParser.parseOutputMapping:148] - Output mapping not well-formed! Curly braces missing? : 				{out=i1,out2=i2}
+(2017-09-26 10:41:39,916) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 10:43:28,607) ERROR [main] [OperationFileParser.parseOutputMapping:156] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-26 10:43:28,609) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 10:59:25,483) ERROR [main] [OperationFileParser.parseOutputMapping:157] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-26 10:59:25,485) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 11:02:58,449) ERROR [main] [OperationFileParser.parseOutputMapping:156] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-26 11:02:58,451) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 11:03:48,130) ERROR [main] [OperationFileParser.parseOutputMapping:157] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-26 11:03:48,131) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 11:04:54,160) ERROR [main] [OperationFileParser.parseOutputMapping:156] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-26 11:04:54,162) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 11:05:14,426) ERROR [main] [OperationFileParser.parseOutputMapping:157] - Output mapping not well-formed on a single argument! : 				{out=i1
+(2017-09-26 11:05:14,428) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
+(2017-09-26 11:05:55,776) ERROR [main] [OperationFileParser.parseOutputMapping:156] - Output mapping not well-formed on a single argument! : out=i1
+(2017-09-26 11:05:55,778) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 10
+(2017-09-26 11:05:55,779) ERROR [main] [OperationFileParser.parseOutputMapping:156] - Output mapping not well-formed on a single argument! : out=i1
+(2017-09-26 11:05:55,779) ERROR [main] [OperationFileParser.parseFile:107] - InputMismatchException on file line: 12
