@@ -39,8 +39,10 @@ import java.rmi.Naming;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -64,19 +66,29 @@ import de.upb.crc901.configurationsetting.operation.OperationInvocation;
 import de.upb.crc901.configurationsetting.operation.SequentialComposition;
 import de.upb.crc901.configurationsetting.serialization.SequentialCompositionSerializer;
 import jaicore.basic.FileUtil;
+import measure.Measurement;
+import output.mySysout;
 import rmi.RMIClient;
 import rmi.RMIServerDataInterface;
 import rmi.RMIServerDeploymentInterface;
+import service.GraphErrorHandler;
+import service.GraphParser;
+import service.TreeValidator;
+import service.ValidationResult;
+import service.interfaces.AbstractNode;
+import service.interfaces.Container;
+import service.interfaces.EndNode;
+import service.interfaces.StartNode;
 import weka.core.Instance;
 
-public class HttpServiceServerRMI extends RMIClient{
+public class HttpServiceServerRMI extends RMIClient {
 	/*
 	 * Copied from the service_node of the sfb_demonstrator
 	 */
 
 	private RMIServerDeploymentInterface serverDeployment;
 	private RMIServerDataInterface serverData;
-	
+
 	private static final Logger logger = LoggerFactory.getLogger(HttpServiceServerRMI.class);
 
 	private static File folder = new File("http");
@@ -89,7 +101,7 @@ public class HttpServiceServerRMI extends RMIClient{
 	// associated values.
 	private final Map<String, Map<String, String>> resultMaps = new HashMap<>();
 
-	public HttpServiceServerRMI(int port) throws Exception{
+	public HttpServiceServerRMI(int port) throws Exception {
 		this(port, "conf/operations.conf", "conf/types.conf");
 	}
 
@@ -102,9 +114,9 @@ public class HttpServiceServerRMI extends RMIClient{
 	 *            Listing of operations provided by the server.
 	 * @param FILE_CONF_TYPES
 	 *            Listing of classes and their ontological type.
-	 * @throws Exception 
+	 * @throws Exception
 	 */
-	public HttpServiceServerRMI(int port, String FILE_CONF_OPS, String FILE_CONF_TYPES) throws Exception{
+	public HttpServiceServerRMI(int port, String FILE_CONF_OPS, String FILE_CONF_TYPES) throws Exception {
 		super("127.0.0.1", "1099");
 		OperationFileParser confParser = new OperationFileParser();
 		confParser.parseFile(FileUtil.readFileAsList(FILE_CONF_OPS));
@@ -186,9 +198,9 @@ public class HttpServiceServerRMI extends RMIClient{
 				 * away: 1. move to position of current call; 2. compute all subsequent calls on
 				 * same host and on services spawned from here.
 				 **/
+				SequentialCompositionSerializer srs = new SequentialCompositionSerializer();
 				SequentialComposition comp = null;
 				if (post.containsKey("coreography")) {
-					SequentialCompositionSerializer srs = new SequentialCompositionSerializer();
 					comp = srs.readComposition(post.get("coreography").toString());
 					Iterator<OperationInvocation> it = comp.iterator();
 					Collection<String> servicesInExecEnvironment = new HashSet<>();
@@ -213,20 +225,51 @@ public class HttpServiceServerRMI extends RMIClient{
 							break;
 					}
 				} else {
-					OperationInvocation opinv;
-					if (objectId.equals("__construct")) {
+					System.err.println(
+							"A coreography must be given. Else there is nothing to send to the sfb_demonstrator"
+									+ "as a dot file. The coreography must be in the HTTP POST marked as \"coreography\"");
 
-						/* creating new object */
-						opinv = ServiceUtil.getOperationInvocation(
-								t.getLocalAddress().toString().substring(1) + "/" + clazz + "::__construct", state);
-
-					} else {
-						opinv = ServiceUtil.getOperationInvocation(t.getLocalAddress().toString().substring(1) + "/"
-								+ clazz + "/" + objectId + "::" + parts[2], state);
-					}
 				}
 
-				
+				/*
+				 * First the given sequential composition is transformed into the dot format.
+				 */
+				String dotFile = srs.writeDOTFile(comp, "test");
+				/*
+				 * Next The dot file is converted into a Container that represents the dot file.
+				 */
+				GraphParser parser = new GraphParser();
+				Hashtable<String, AbstractNode> nodeList = parser.parse(dotFile);
+				StartNode startNode = (StartNode) parser.getRoot();
+				EndNode endNode = (EndNode) parser.getTarget();
+
+				ArrayList<AbstractNode> nodeListConverted = new ArrayList<AbstractNode>();
+				Enumeration<AbstractNode> nodeEnum = nodeList.elements();
+				while (nodeEnum.hasMoreElements()) {
+					nodeListConverted.add(nodeEnum.nextElement());
+				}
+
+				ValidationResult validResult = TreeValidator.validateTree(startNode, nodeListConverted, mRMIClient);
+				mySysout.print("Validation result: ");
+				GraphErrorHandler handler = new GraphErrorHandler(validResult, dotFile);
+				handler.createGraphFile();
+				if (validResult.getErrorCount() == 0) {
+					mySysout.println("Found no errors");
+					Container cont = new Container(startNode, endNode);
+					// TODO Here the "process" call what be made... 
+				} else {
+					mySysout.printerrln("Error: File not correctly parsed");
+					mySysout.printerrln(validResult.toString());
+				}
+				/*
+				 * The Container and the additionalInputs are packed into a Data object.
+				 */
+
+				/*
+				 * The Data object is send to the sfb_demonstrator via the RMI interface that
+				 * this class extends.
+				 */
+
 				/*
 				 * now returning the serializations of all created (non-service) objects
 				 */
